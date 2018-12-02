@@ -12,6 +12,10 @@ import java.util.ResourceBundle;
 
 public class PasswordController implements Initializable {
 
+    private enum GeneratorOption {
+        NUMBERS, SPECIAL_CHARACTERS;
+    }
+
     @FXML
     public TextField password;
 
@@ -31,7 +35,6 @@ public class PasswordController implements Initializable {
 
     @FXML
     public void generatePassword(ActionEvent actionEvent) {
-        System.out.println("Generating password.");
         password.setText("Secure password");
     }
 }

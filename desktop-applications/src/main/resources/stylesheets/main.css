@@ -1,0 +1,13 @@
+.root {
+    -fx-font-family: "Arial";
+}
+
+.generator__label {
+    -fx-font-family: "Arial Black";
+}
+
+.generator__button {
+    -fx-background-color: hsb(212, 84%, 78%);
+    -fx-text-fill: hsb(100, 0%, 100%);
+    -fx-font-weight: bold;
+}

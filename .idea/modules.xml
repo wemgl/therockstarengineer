@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resourc.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resourc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resourc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resourc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resourc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resourc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resources.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resources.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resources.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.youtube-resources.test.iml" />
     </modules>
   </component>
 </project>

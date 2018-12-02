@@ -1,4 +1,4 @@
-rootProject.name = 'youtube-resources'
+rootProject.name = 'therockstarengineer'
 include 'creating-objects'
 include 'desktop-applications'
 

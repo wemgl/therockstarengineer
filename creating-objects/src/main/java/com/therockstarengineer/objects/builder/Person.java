@@ -94,6 +94,11 @@ public final class Person {
 
     @Override
     public String toString() {
-        return String.format("%s %s\n", firstName, lastName);
+        String fullName = String.format("%s %s\n", firstName, lastName);
+        var str = new StringBuilder(fullName);
+        if (Objects.nonNull(address)) {
+            str.append(address);
+        }
+        return str.toString();
     }
 }

@@ -14,7 +14,6 @@ public class CreatingObjects {
                                  .zipCode(10463)
                                  .build())
                 .build();
-        System.out.println("New Person:");
         System.out.println(person);
     }
 }

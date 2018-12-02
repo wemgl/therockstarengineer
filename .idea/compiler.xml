@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.therockstarengineer.examples.main" target="1.10" />
+      <module name="com.therockstarengineer.examples.test" target="1.10" />
+      <module name="com.therockstarengineer.youtube-resourc.main" target="1.10" />
+      <module name="com.therockstarengineer.youtube-resourc.test" target="1.10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

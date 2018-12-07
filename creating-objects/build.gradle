@@ -1,13 +1,15 @@
 plugins {
-    id 'java'
+    id 'application'
 }
 
 group 'com.therockstarengineer'
 version '0.1.0-SNAPSHOT'
 
-apply plugin: 'java'
+apply plugin: 'application'
 
-sourceCompatibility = 10
+allprojects {
+    sourceCompatibility = '11'
+}
 
 repositories {
     mavenCentral()

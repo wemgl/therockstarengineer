@@ -11,3 +11,7 @@
     -fx-text-fill: hsb(100, 0%, 100%);
     -fx-font-weight: bold;
 }
+
+.generator__button:hover {
+    -fx-background-color: hsb(212, 84%, 50%);
+}

@@ -15,7 +15,7 @@
           AnchorPane.bottomAnchor="10.0" spacing="10.0">
         <HBox spacing="10.0">
             <TextField fx:id="output" editable="false"/>
-            <Button fx:id="generate" styleClass="generator__button" onAction="#generatePassword">
+            <Button fx:id="generate" prefWidth="100.0" styleClass="generator__button" onAction="#generatePassword">
                 GENERATE
             </Button>
         </HBox>

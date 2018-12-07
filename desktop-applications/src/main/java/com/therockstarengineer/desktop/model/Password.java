@@ -56,8 +56,8 @@ public class Password {
      */
     public String generate(Set<Option> options) {
         var characters = options.stream()
-                .flatMapToInt(option -> stream(option.characters))
-                .toArray();
+                                .flatMapToInt(option -> stream(option.characters))
+                                .toArray();
         var password = new StringBuilder(DEFAULT_PASSWORD_LENGTH);
         while (password.length() < DEFAULT_PASSWORD_LENGTH) {
             password.append(nextCharacter(characters));

@@ -14,14 +14,15 @@
     <VBox AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"
           AnchorPane.bottomAnchor="10.0" spacing="10.0">
         <HBox spacing="10.0">
-            <TextField fx:id="password" editable="false"/>
-            <Button fx:id="generateButton" styleClass="generator__button" onAction="#generatePassword">
+            <TextField fx:id="output" editable="false"/>
+            <Button fx:id="generate" styleClass="generator__button" onAction="#generatePassword">
                 GENERATE
             </Button>
         </HBox>
         <Label styleClass="generator__label">OPTIONS</Label>
-        <CheckBox fx:id="includeNumbers">Numbers</CheckBox>
-        <CheckBox fx:id="includeSpecialChars">Special Characters</CheckBox>
+        <CheckBox fx:id="digits">Numbers</CheckBox>
+        <CheckBox fx:id="specialChars">Special Characters</CheckBox>
+        <CheckBox fx:id="upperCase">Uppercase Letters</CheckBox>
     </VBox>
     <stylesheets>
         <URL value="@/stylesheets/main.css"/>

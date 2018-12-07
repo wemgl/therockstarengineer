@@ -12,7 +12,7 @@ import java.net.URL;
 import java.util.EnumSet;
 import java.util.ResourceBundle;
 
-public class PasswordController implements Initializable {
+public class PasswordsController implements Initializable {
     private Password password;
 
     @FXML

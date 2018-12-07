@@ -10,7 +10,7 @@
 <?import java.net.URL?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.therockstarengineer.desktop.controllers.PasswordController">
+            fx:controller="com.therockstarengineer.desktop.controllers.PasswordsController">
     <VBox AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"
           AnchorPane.bottomAnchor="10.0" spacing="10.0">
         <HBox spacing="10.0">

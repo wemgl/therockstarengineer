@@ -1,8 +1,8 @@
 package com.therockstarengineer.desktop.model;
 
-import java.util.Arrays;
 import java.util.Set;
 
+import static java.util.Arrays.stream;
 import static java.util.concurrent.ThreadLocalRandom.current;
 import static java.util.stream.IntStream.concat;
 import static java.util.stream.IntStream.range;
@@ -56,10 +56,10 @@ public class Password {
      */
     public String generate(Set<Option> options) {
         var characters = options.stream()
-                .flatMapToInt(option -> Arrays.stream(option.characters))
+                .flatMapToInt(option -> stream(option.characters))
                 .toArray();
         var password = new StringBuilder(DEFAULT_PASSWORD_LENGTH);
-        for (int i = 0; i < DEFAULT_PASSWORD_LENGTH; i++) {
+        while (password.length() < DEFAULT_PASSWORD_LENGTH) {
             password.append(nextCharacter(characters));
         }
         return password.toString();

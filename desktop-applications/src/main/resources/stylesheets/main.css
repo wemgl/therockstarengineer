@@ -2,16 +2,35 @@
     -fx-font-family: "Arial";
 }
 
-.generator__label {
-    -fx-font-family: "Arial Black";
+.options__label {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
 }
 
 .generator__button {
     -fx-background-color: hsb(212, 84%, 78%);
     -fx-text-fill: hsb(100, 0%, 100%);
     -fx-font-weight: bold;
+    -fx-fill-width: 100%;
+}
+
+.generator__button--green {
+    -fx-background-color: hsb(115, 89%, 73%);
+    -fx-text-fill: hsb(100, 0%, 100%);
+    -fx-font-weight: bold;
 }
 
 .generator__button:hover {
     -fx-background-color: hsb(212, 84%, 50%);
+}
+
+.generator__button--green:hover {
+    -fx-background-color: hsb(115, 89%, 50%);
+    -fx-text-fill: hsb(100, 0%, 100%);
+    -fx-font-weight: bold;
+}
+
+.options__checkbox {
+    -fx-font-weight: lighter;
 }

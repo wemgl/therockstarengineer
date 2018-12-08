@@ -13,7 +13,7 @@ import static java.util.stream.IntStream.range;
  *
  * @see <a href="http://www.asciichart.com">Decimal ASCII Chart</a>
  */
-public class Password {
+public final class Password {
     private static final int DEFAULT_PASSWORD_LENGTH = 16;
 
     /**

@@ -7,16 +7,23 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
+import javafx.scene.input.ClipboardContent;
 
 import java.net.URL;
 import java.util.EnumSet;
 import java.util.ResourceBundle;
 
+import static javafx.scene.input.Clipboard.getSystemClipboard;
+
 public class PasswordsController implements Initializable {
     private Password password;
+    private String lastPassword;
 
     @FXML
     public TextField output;
+
+    @FXML
+    public Button copy;
 
     @FXML
     public Button generate;
@@ -30,9 +37,14 @@ public class PasswordsController implements Initializable {
     @FXML
     public CheckBox upperCase;
 
+    public PasswordsController() {
+        lastPassword = "";
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         password = new Password();
+        lastPassword = "";
     }
 
     @FXML
@@ -47,7 +59,19 @@ public class PasswordsController implements Initializable {
         if (specialChars.isSelected()) {
             options.add(Password.Option.SPECIAL_CHARACTERS);
         }
-        var output = password.generate(options);
-        this.output.setText(output);
+        lastPassword = password.generate(options);
+        this.output.setText(lastPassword);
+    }
+
+    @FXML
+    public void copyPassword(ActionEvent actionEvent) {
+        addToClipboard(lastPassword);
+    }
+
+    private void addToClipboard(String password) {
+        final var clipboard = getSystemClipboard();
+        final var content = new ClipboardContent();
+        content.putString(password);
+        clipboard.setContent(content);
     }
 }

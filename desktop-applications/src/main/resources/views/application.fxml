@@ -7,23 +7,48 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import java.lang.String?>
 <?import java.net.URL?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.therockstarengineer.desktop.controllers.PasswordsController">
-    <VBox AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"
-          AnchorPane.bottomAnchor="10.0" spacing="10.0">
-        <HBox spacing="10.0">
-            <TextField fx:id="output" editable="false"/>
-            <Button fx:id="generate" styleClass="generator__button" onAction="#generatePassword">
-                GENERATE
-            </Button>
-        </HBox>
-        <Label styleClass="generator__label">OPTIONS</Label>
-        <CheckBox fx:id="digits">Numbers</CheckBox>
-        <CheckBox fx:id="specialChars">Special Characters</CheckBox>
-        <CheckBox fx:id="upperCase">Uppercase Letters</CheckBox>
-    </VBox>
+    <HBox spacing="15.0"
+          AnchorPane.topAnchor="10.0"
+          AnchorPane.leftAnchor="10.0"
+          AnchorPane.bottomAnchor="10.0"
+          AnchorPane.rightAnchor="10.0">
+        <AnchorPane>
+            <TextField fx:id="output" disable="true"/>
+            <VBox AnchorPane.leftAnchor="0.0"
+                  AnchorPane.rightAnchor="0.0"
+                  AnchorPane.bottomAnchor="0.0"
+                  spacing="10.0">
+                <AnchorPane>
+                    <Button fx:id="generate" styleClass="generator__button" onAction="#generatePassword"
+                            AnchorPane.leftAnchor="0.0"
+                            AnchorPane.rightAnchor="0.0">
+                        Generate
+                    </Button>
+                </AnchorPane>
+                <AnchorPane>
+                    <Button fx:id="copy" onAction="#copyPassword" AnchorPane.leftAnchor="0.0"
+                            AnchorPane.rightAnchor="0.0">
+                        <styleClass>
+                            <String fx:value="generator__button"/>
+                            <String fx:value="generator__button--green"/>
+                        </styleClass>
+                        Copy
+                    </Button>
+                </AnchorPane>
+            </VBox>
+        </AnchorPane>
+        <VBox spacing="15.0">
+            <Label styleClass="options__label">Options</Label>
+            <CheckBox fx:id="digits" styleClass="options__checkbox">Numbers</CheckBox>
+            <CheckBox fx:id="specialChars" styleClass="options__checkbox">Special Characters</CheckBox>
+            <CheckBox fx:id="upperCase" styleClass="options__checkbox">Uppercase Letters</CheckBox>
+        </VBox>
+    </HBox>
     <stylesheets>
         <URL value="@/stylesheets/main.css"/>
     </stylesheets>

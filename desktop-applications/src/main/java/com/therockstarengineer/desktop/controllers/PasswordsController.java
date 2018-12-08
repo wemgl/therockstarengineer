@@ -1,6 +1,6 @@
 package com.therockstarengineer.desktop.controllers;
 
-import com.therockstarengineer.desktop.model.Password;
+import com.therockstarengineer.desktop.models.Password;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -36,10 +36,6 @@ public class PasswordsController implements Initializable {
 
     @FXML
     public CheckBox upperCase;
-
-    public PasswordsController() {
-        lastPassword = "";
-    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

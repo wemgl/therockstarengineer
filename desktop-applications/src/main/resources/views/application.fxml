@@ -12,17 +12,11 @@
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.therockstarengineer.desktop.controllers.PasswordsController">
-    <HBox spacing="15.0"
-          AnchorPane.topAnchor="10.0"
-          AnchorPane.leftAnchor="10.0"
-          AnchorPane.bottomAnchor="10.0"
+    <HBox spacing="15.0" AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.bottomAnchor="10.0"
           AnchorPane.rightAnchor="10.0">
         <AnchorPane>
             <TextField fx:id="output" disable="true"/>
-            <VBox AnchorPane.leftAnchor="0.0"
-                  AnchorPane.rightAnchor="0.0"
-                  AnchorPane.bottomAnchor="0.0"
-                  spacing="10.0">
+            <VBox AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.bottomAnchor="0.0" spacing="10.0">
                 <AnchorPane>
                     <Button fx:id="generate" styleClass="generator__button" onAction="#generatePassword"
                             AnchorPane.leftAnchor="0.0"
@@ -50,6 +44,6 @@
         </VBox>
     </HBox>
     <stylesheets>
-        <URL value="@/stylesheets/main.css"/>
+        <URL value="@../stylesheets/main.css"/>
     </stylesheets>
 </AnchorPane>

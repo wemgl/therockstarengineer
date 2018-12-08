@@ -1,4 +1,4 @@
-package com.therockstarengineer.desktop.model;
+package com.therockstarengineer.desktop.models;
 
 import java.util.Set;
 

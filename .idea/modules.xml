@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creating-objects/com.therockstarengineer.creating-objects.iml" filepath="$PROJECT_DIR$/.idea/modules/creating-objects/com.therockstarengineer.creating-objects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creating-objects/com.therockstarengineer.creating-objects.main.iml" filepath="$PROJECT_DIR$/.idea/modules/creating-objects/com.therockstarengineer.creating-objects.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creating-objects/com.therockstarengineer.creating-objects.test.iml" filepath="$PROJECT_DIR$/.idea/modules/creating-objects/com.therockstarengineer.creating-objects.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop-applications/com.therockstarengineer.desktop-applications.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop-applications/com.therockstarengineer.desktop-applications.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop-applications/com.therockstarengineer.desktop-applications.main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop-applications/com.therockstarengineer.desktop-applications.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop-applications/com.therockstarengineer.desktop-applications.test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop-applications/com.therockstarengineer.desktop-applications.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.therockstarengineer.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.therockstarengineer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.therockstarengineer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.therockstarengineer.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.therockstarengineer.therockstarengineer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.therockstarengineer.therockstarengineer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/therockstarengineer.iml" filepath="$PROJECT_DIR$/.idea/modules/therockstarengineer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creating-objects/therockstarengineer.creating-objects.iml" filepath="$PROJECT_DIR$/.idea/modules/creating-objects/therockstarengineer.creating-objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creating-objects/therockstarengineer.creating-objects.main.iml" filepath="$PROJECT_DIR$/.idea/modules/creating-objects/therockstarengineer.creating-objects.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creating-objects/therockstarengineer.creating-objects.test.iml" filepath="$PROJECT_DIR$/.idea/modules/creating-objects/therockstarengineer.creating-objects.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop-applications/therockstarengineer.desktop-applications.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop-applications/therockstarengineer.desktop-applications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop-applications/therockstarengineer.desktop-applications.main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop-applications/therockstarengineer.desktop-applications.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop-applications/therockstarengineer.desktop-applications.test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop-applications/therockstarengineer.desktop-applications.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/therockstarengineer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/therockstarengineer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/therockstarengineer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/therockstarengineer.test.iml" />
     </modules>
   </component>
 </project>

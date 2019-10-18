@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url('../fonts/worksans/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Work Sans Medium";
+    src: url('../fonts/worksans/WorkSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Work Sans Black";
+    src: url('../fonts/worksans/WorkSans-Black.ttf');
+}
+
+.root {
+    -fx-font-family: "Work Sans";
+}
+
+.options__label {
+    -fx-font-family: "Work Sans Black";
+    -fx-font-weight: bold;
+    -fx-font-size: 29px;
+    -fx-alignment: center;
+    -fx-fill-width: 100%;
+    -fx-text-fill: hsb(212, 20%, 40%);
+}
+
+.generator__button {
+    -fx-background-color: hsb(212, 84%, 78%);
+    -fx-text-fill: hsb(100, 0%, 100%);
+    -fx-font-weight: bold;
+    -fx-pref-width: 240px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 18px;
+    -fx-background-radius: 20px;
+}
+
+.generator__button--dark {
+    -fx-background-color: hsb(215, 82%, 49%);
+    -fx-font-family: 'Work Sans Medium';
+}
+
+.generator__button--dark:hover {
+    -fx-background-color: hsb(215, 92%, 29%);
+}
+
+.generator__button--light {
+    -fx-background-color: hsb(212, 56%, 58%);
+    -fx-font-family: 'Work Sans Medium';
+}
+
+.generator__button--light:hover {
+    -fx-background-color: hsb(212, 76%, 38%);
+}
+
+.options__checkbox {
+    -fx-font-weight: lighter;
+    -fx-text-fill: hsb(212, 20%, 40%);
+}
+
+.output {
+    -fx-pref-width: 240px;
+    -fx-pref-height: 40px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.group--top {
+    -fx-padding: 0 0 61 0;
+}
+
+.container {
+    -fx-background-color: hsb(212, 77%, 59%);
+}
+
+.container--right {
+    -fx-background-color: hsb(213, 5%, 88%);
+}

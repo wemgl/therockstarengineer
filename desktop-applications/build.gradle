@@ -10,10 +10,10 @@ apply plugin: 'application'
 
 javafx {
     modules = ['javafx.base', 'javafx.controls', 'javafx.fxml']
-    version = "11.0.1"
+    version = "11.0.2"
 }
 
-sourceCompatibility = 11
+sourceCompatibility = 13
 
 repositories {
     mavenCentral()

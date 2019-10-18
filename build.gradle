@@ -8,7 +8,7 @@ version '0.1.0-SNAPSHOT'
 apply plugin: 'application'
 
 mainClassName = 'com.therockstarengineer.Main'
-sourceCompatibility = 11
+sourceCompatibility = 13
 
 repositories {
     mavenCentral()
